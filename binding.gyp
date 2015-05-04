@@ -26,7 +26,7 @@
       ],
       'conditions': [
         ['OS=="mac"', {'libraries': ['-lGLEW','-lfreeimage','-framework OpenGL']}],
-        ['OS=="linux"', {'libraries': ['-lfreeimage','-lGLEW','-lGL', '-lX11', '-lXrandr', '-lXi', '-lXxf86vm', '-lXcursor', '-lXinerama']}],
+        ['OS=="linux"', {'libraries': ['-lfreeimage','-lGLEW','-lGL']}],
         ['OS=="win"', {
           'libraries': [
             'freeimage64.lib','glew64s.lib','opengl32.lib'
